@@ -1,0 +1,247 @@
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #00BFFF;
+    
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #3745c5);
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+. search1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+.search1 button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 340px;
+
+}
+
+.search button img {
+    width: 20px;
+}
+
+.search1 button img {
+    width: 20px;
+    margin-left: 5px;
+}
+button.primary img{
+    margin-right: 5px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+dialog {
+    margin-top: 250px;
+    margin-left: 630px;
+    padding: 1rem 3rem;
+    background: white;
+    max-width: 400px;
+    height: 400px;
+    padding-top: 2rem;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+    animation: fadeIn 1s ease both;
+
+
+
+    .x {
+        filter: grayscale(1);
+        border-radius: 20px;
+        background:none;
+        position:absolute;
+        top:15px;
+        right:10px;
+        transition:ease filter, transform 0.3s;
+        cursor:pointer;
+        transform-origin:center;
+
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding: 0.5rem 0;
+
+
+    }
+}
+
+
+button.primary {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #fff !important;
+    margin-left: 340px;
+   
+    border-radius: 50px;
+    transition: background-color 0.1s ease;
+
+    transition: all 0.25s ease;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -10px rgb(var(--vs-primary) / 50%);
+
+    &:hover {
+        box-shadow: 0 20px 20px -10px rgb(var(--vs-primary) / 50%);
+        transform: translateY(-5px);
+    }
+}
+.dialog2 {
+    margin-top: 250px;
+    margin-left: 630px;
+    padding: 1rem 3rem;
+    background: white;
+    max-width: 700px;
+    height: 800px;
+    padding-top: 2rem;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+    animation: fadeIn 1s ease both;
+
+
+
+    .x1 {
+        filter: grayscale(1);
+        border:none;
+        background:none;
+        position:absolute;
+        top:15px;
+        right:10px;
+        transition:ease filter, transform 0.3s;
+        cursor:pointer;
+        transform-origin:center;
+
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding: 0.5rem 0;
+
+
+    }
+}
